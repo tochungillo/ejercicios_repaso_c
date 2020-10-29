@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ejercicios_repaso_c", "ejer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileChallange", "TextFileChallange\TextFileChallange.csproj", "{E2EFDE5A-B6E5-4E47-A883-93577EC18C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeChallenge", "DateTimeChallenge\DateTimeChallenge.csproj", "{4CA8B993-33A1-475A-BE46-2D5B99ACB86B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeChallenge", "DateTimeChallenge\DateTimeChallenge.csproj", "{4CA8B993-33A1-475A-BE46-2D5B99ACB86B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListModificationChallenge", "ListModificationChallenge\ListModificationChallenge.csproj", "{74400295-960A-4C98-A99C-A6D78B918660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListModificationChallenge", "ListModificationChallenge\ListModificationChallenge.csproj", "{74400295-960A-4C98-A99C-A6D78B918660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormToDoList", "WinFormToDoList\WinFormToDoList.csproj", "{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{74400295-960A-4C98-A99C-A6D78B918660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74400295-960A-4C98-A99C-A6D78B918660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74400295-960A-4C98-A99C-A6D78B918660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

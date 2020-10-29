@@ -36,10 +36,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.firstName = new System.Windows.Forms.TextBox();
             this.LastName = new System.Windows.Forms.TextBox();
-            this.age = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.usersList = new System.Windows.Forms.ListBox();
+            this.age = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.age)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,14 +112,6 @@
             this.LastName.Size = new System.Drawing.Size(160, 22);
             this.LastName.TabIndex = 7;
             // 
-            // age
-            // 
-            this.age.FormattingEnabled = true;
-            this.age.Location = new System.Drawing.Point(148, 183);
-            this.age.Name = "age";
-            this.age.Size = new System.Drawing.Size(52, 24);
-            this.age.TabIndex = 8;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(40, 285);
@@ -148,15 +141,27 @@
             this.usersList.Size = new System.Drawing.Size(356, 292);
             this.usersList.TabIndex = 11;
             // 
+            // age
+            // 
+            this.age.Location = new System.Drawing.Point(148, 184);
+            this.age.Maximum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.age.Name = "age";
+            this.age.Size = new System.Drawing.Size(70, 22);
+            this.age.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.age);
             this.Controls.Add(this.usersList);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.age);
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.firstName);
             this.Controls.Add(this.label5);
@@ -167,6 +172,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.age)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,10 +188,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox firstName;
         private System.Windows.Forms.TextBox LastName;
-        private System.Windows.Forms.ComboBox age;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ListBox usersList;
+        private System.Windows.Forms.NumericUpDown age;
     }
 }
 
