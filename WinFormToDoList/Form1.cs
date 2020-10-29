@@ -31,18 +31,12 @@ namespace WinFormToDoList
                 List<string> save = new List<string>();
                 for (int i = 0; i < doList.Items.Count; i++)
                 {
-                    if (doList.SelectedIndex != i)
+                    if (Decimal.ToInt32(preference.Value) - 1 != i)
                     {
                         string[] s = doList.Items[i].ToString().Split(':');
                         save.Add(s[1].Substring(1));
                     }
                 }
-                doList.SelectedIndex = Decimal.ToInt32(preference.Value) - 1;
-                // change to selected
-                doList.SetSelected(doList.SelectedIndex, true);
-                // remove item
-                doList.Items.RemoveAt(doList.SelectedIndex);
-                
                 doList.Items.Clear();
                 for (int i = 0; i < save.Count; i++)
                     doList.Items.Add((1 + i).ToString() + ": " + save[i].ToString());
