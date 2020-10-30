@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListModificationChallenge",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormToDoList", "WinFormToDoList\WinFormToDoList.csproj", "{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stringReplacement", "stringReplacement\stringReplacement.csproj", "{A028BE09-E258-49C7-AA07-03D2E30B13F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingForDataChallenge", "SearchingForDataChallenge\SearchingForDataChallenge.csproj", "{53929DC5-5658-44A3-9AF3-290A4FFC0005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630BF0CF-0F2B-44A2-B7AF-CDF6F23321DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A028BE09-E258-49C7-AA07-03D2E30B13F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A028BE09-E258-49C7-AA07-03D2E30B13F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A028BE09-E258-49C7-AA07-03D2E30B13F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A028BE09-E258-49C7-AA07-03D2E30B13F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53929DC5-5658-44A3-9AF3-290A4FFC0005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53929DC5-5658-44A3-9AF3-290A4FFC0005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53929DC5-5658-44A3-9AF3-290A4FFC0005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53929DC5-5658-44A3-9AF3-290A4FFC0005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

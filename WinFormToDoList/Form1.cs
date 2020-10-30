@@ -37,6 +37,8 @@ namespace WinFormToDoList
                         save.Add(s[1].Substring(1));
                     }
                 }
+                //para borrar lo seleccionado en la lista
+                //doList.Items.RemoveAt(index);
                 doList.Items.Clear();
                 for (int i = 0; i < save.Count; i++)
                     doList.Items.Add((1 + i).ToString() + ": " + save[i].ToString());
